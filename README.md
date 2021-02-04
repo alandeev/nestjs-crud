@@ -3,13 +3,14 @@
 ## About
 > I'm trying to do this in the best structure, following the [NextJS Documentation]("https://docs.nestjs.com/").
 
-## Functional requirements
+## Ideas to implements
 
 - [OK] The user needs to be registered only by E-mail.
-- [...] The user needs to be able to post messages on the wall..
-- [...](optional) The message can be deleted
+- [OK] Create CRUD of User Entity
+- [OK] Validate data and handle exception globally with NestJS
 
-## Non-functional requirements
+## Used
 
 - Nest.js
 - TypeORM
+- Class-Validator / Class-Transformer [ validate erros using nestjs's pipe ]
